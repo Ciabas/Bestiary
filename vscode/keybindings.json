@@ -1,0 +1,23 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "cmd+l",
+    "command": "eslint.executeAutofix"
+  },
+  {
+    "key": "shift+alt+z",
+    "command": "editor.action.toggleWordWrap"
+  },
+  {
+    "key": "alt+z",
+    "command": "-editor.action.toggleWordWrap"
+  },
+  {
+    "key": "cmd+q",
+    "command": "-workbench.action.quit"
+  },
+  {
+    "key": "cmd+k",
+    "command": "prettier.forceFormatDocument"
+  }
+]

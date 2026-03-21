@@ -1,0 +1,111 @@
+{
+  "workbench.colorCustomizations": {
+    "editor.selectionBackground": "#afc4da"
+  },
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": true,
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": true,
+  "files.insertFinalNewline": true,
+  "files.associations": {
+    "*.js": "javascriptreact",
+    "*.tsx": "typescriptreact"
+  },
+  "js/ts.implicitProjectConfig.experimentalDecorators": true,
+  "workbench.statusBar.visible": true,
+  "explorer.confirmDragAndDrop": false,
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "breadcrumbs.enabled": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "gitlens.codeLens.enabled": false,
+  "gitlens.statusBar.enabled": false,
+  "editor.wordWrapColumn": 120,
+  "editor.hover.delay": 200,
+  "search.exclude": {
+    "**/build": true
+  },
+  "terminal.explorerKind": "external",
+  "terminal.external.osxExec": "iTerm.app",
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  "window.commandCenter": true,
+  "editor.accessibilitySupport": "off",
+  "git.autofetch": true,
+  "window.zoomLevel": -1,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "diffEditor.useInlineViewWhenSpaceIsLimited": false,
+  "workbench.sideBar.location": "right",
+  "eslint.migration.2_x": "off",
+  "files.refactoring.autoSave": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "github.copilot.chat.reviewSelection.instructions": [],
+  "editor.rulers": [
+    {
+      "column": 100,
+      "color": "#fafafa"
+    },
+    {
+      "column": 120,
+      "color": "#fcfcfc"
+    },
+  ],
+  "github.copilot.chat.setupTests.enabled": false,
+  "github.copilot.chat.localeOverride": "en",
+  "workbench.iconTheme": "vscode-great-icons",
+  "workbench.colorTheme": "GitHub Plus",
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:claude-3-5-sonnet",
+  "workbench.editorAssociations": {
+    "*.copilotmd": "vscode.markdown.preview.editor",
+    "*.svg": "default"
+  },
+  "svg.preview.mode": "svg",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "gitlens.views.scm.grouped.views": {
+    "commits": true,
+    "branches": true,
+    "remotes": true,
+    "stashes": true,
+    "tags": true,
+    "worktrees": true,
+    "contributors": true,
+    "fileHistory": false,
+    "repositories": true,
+    "searchAndCompare": false,
+    "launchpad": true
+  },
+  "gitlens.gitkraken.mcp.autoEnabled": false,
+  "workbench.settings.applyToAllProfiles": [
+    "gitlens.gitkraken.mcp.autoEnabled"
+  ],
+  "chat.agentFilesLocations": {
+    "~/.agents": true
+  },
+}
