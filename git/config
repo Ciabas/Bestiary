@@ -1,0 +1,32 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Ciabas
+	email = 9249181+Ciabas@users.noreply.github.com
+
+[alias]
+	praise = blame
+
+[branch]
+	autosetuprebase = always
+	sort = -committerdate
+
+[push]
+	default = simple
+
+[rebase]
+	autosquash = true
+
+[core]
+	excludesfile = ~/.gitignore_global
+	attributesfile = ~/.gitattributes
+	editor = /usr/bin/vim
+
+[commit]
+	verbose = true
+	template = ~/.gitmessage
+
+[init]
+	defaultBranch = main
+
+[column]
+	ui = auto

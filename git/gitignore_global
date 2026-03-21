@@ -1,0 +1,31 @@
+# Global gitignore - files ignored in all repos
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.vim/
+.sublime-project
+.sublime-workspace
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Tools
+.direnv
+.envrc
+node_modules/
+*.log
+
+# macOS
+._*
+.AppleDouble
+.LSOverride

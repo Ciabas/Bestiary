@@ -1,0 +1,22 @@
+# <type>: <subject>
+# <reference>
+#
+# <body>
+#
+#
+# --- TEMPLATE ---
+# type:
+#   feat:     A new feature
+#   fix:      A bug fix
+#   docs:     Documentation only changes
+#   style:    Changes that don't affect code meaning (whitespace, etc)
+#   refactor: Code change that neither fixes bug nor adds feature
+#   perf:     Code change that improves performance
+#   test:     Adding or updating tests
+#   chore:    Changes to build process, dependencies, tooling
+#
+# subject: Short description (50 chars max, imperative mood)
+#
+# body: Explain what and why (not how). Wrap at 72 chars.
+#
+# reference: Link to issue
