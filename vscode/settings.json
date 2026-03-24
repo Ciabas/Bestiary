@@ -68,7 +68,7 @@
     {
       "column": 120,
       "color": "#fcfcfc"
-    },
+    }
   ],
   "github.copilot.chat.setupTests.enabled": false,
   "github.copilot.chat.localeOverride": "en",
@@ -107,5 +107,5 @@
   ],
   "chat.agentFilesLocations": {
     "~/.agents": true
-  },
+  }
 }
