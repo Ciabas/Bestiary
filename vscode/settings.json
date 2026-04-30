@@ -107,5 +107,6 @@
   ],
   "chat.agentFilesLocations": {
     "~/.agents": true
-  }
+  },
+  "claudeCode.preferredLocation": "panel"
 }

@@ -47,3 +47,14 @@ if ask "Git configuration files?"; then
     ln -s "$(realpath "git/gitmessage")" ~/.gitmessage
     ln -s "$(realpath "git/gitattributes")" ~/.gitattributes
 fi
+
+# Claude configuration
+if ask "Claude configuration?"; then
+    mkdir -p ~/.claude/skills
+    ln -sf "$(realpath "claude/settings.json")" ~/.claude/settings.json
+    ln -sf "$(realpath "claude/statusline-command.sh")" ~/.claude/statusline-command.sh
+    for skill_dir in claude/skills/*/; do
+        skill_name=$(basename "$skill_dir")
+        ln -sf "$(realpath "$skill_dir")" ~/.claude/skills/"$skill_name"
+    done
+fi

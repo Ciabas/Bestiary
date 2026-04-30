@@ -1,0 +1,12 @@
+{
+  "voice": {
+    "enabled": true,
+    "mode": "hold"
+  },
+  "voiceEnabled": true,
+  "theme": "light",
+  "statusLine": {
+    "type": "command",
+    "command": "bash /Users/arturwroblewski/.claude/statusline-command.sh"
+  }
+}
